@@ -1,0 +1,468 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="100" height="100">
+<!DOCTYPE html>
+<html> 
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132314956-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132314956-1');
+</script>
+<title>Tech-invite &ndash; inside the 3GPP Standards</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./favicon.ico" >
+<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="./style/style.css">
+<style>
+h1.f{font-size:24px;font-style:normal;font-weight:normal;color:#ff0066;margin-top:20px;line-height:30px}
+.m3-w{max-width:500px;margin: 0 auto}
+td {
+  vertical-align: top;
+  padding: 0.1em 0.1em;
+}
+td.bgts {
+  background-color: #ccffff;
+}
+td.bgtr {
+  background-color: #ccffe6;
+}
+.vt{vertical-align:top}
+.pxser{font-size:14pt}
+.pxser{font-family:"Trebuchet MS";font-weight:bold;font-size:18pt}
+.pxnum{font-family:"Trebuchet MS";font-weight:normal;font-size:30pt}
+.pxcom{font-family:"Trebuchet MS";font-weight:normal;font-size:13px;color:#000000}
+</style>
+<meta http-equiv="Content-Language" content="en">
+<meta name="Description" lang="en" content="Consolidated information for the documents published by the 3GPP (technical specifications/reports) in order to ease the follow-up of 5G standardization.">
+<meta name="Copyright" content="&reg;Copyright: 2005-2023 Tech-invite, All Rights Reserved.">
+<meta name="Robots" content="index,follow,noarchive">
+<meta charset="UTF-8">
+</head>
+<body>
+<div id="top" class="m3-full bgh">
+<div class="m3-padl5 px12 lh20">
+<a href="./index.html"><span class="logotech">Tech-</span><span class="logoinv">invite</span></a>&emsp;
+<a class="msel1" href="./3m0/tinv-3gpp-overview.html"><span class="px18 sdo">3GPP</span>space</a>&emsp;
+<a class="m0" href="./x0/tinv-ietf-rfcs-94.html"><span class="px18 sdo">IETF</span> RFCs</a>&emsp;
+<a class="m0" href="./fo-sip/tinv-fo-sip-ex3261.html">SIP</a>
+</div>
+<div class="h-03"></div>
+<div class="m3-padl10 px12 lh22">
+<a class="m1" href="./3m0/tinv-3gpp-quick.html">index</a>&emsp;
+<a class="m1" href="./3m21/tinv-3gpp-21.html">21</a>&emsp;
+<a class="m1" href="./3m22/tinv-3gpp-22.html">22</a>&emsp;
+<a class="m1" href="./3m23/tinv-3gpp-23.html">23</a>&emsp;
+<a class="m1" href="./3m24/tinv-3gpp-24.html">24</a>&emsp;
+<a class="m1" href="./3m25/tinv-3gpp-25.html">25</a>&emsp;
+<a class="m1" href="./3m26/tinv-3gpp-26.html">26</a>&emsp;
+<a class="m1" href="./3m27/tinv-3gpp-27.html">27</a>&emsp;
+<a class="m1" href="./3m28/tinv-3gpp-28.html">28</a>&emsp;
+<a class="m1" href="./3m29/tinv-3gpp-29.html">29</a>&emsp;
+<a class="m1" href="./3m31/tinv-3gpp-31.html">31</a>&emsp;
+<a class="m1" href="./3m32/tinv-3gpp-32.html">32</a>&emsp;
+<a class="m1" href="./3m33/tinv-3gpp-33.html">33</a>&emsp;
+<a class="m1" href="./3m34/tinv-3gpp-34.html">34</a>&emsp;
+<a class="m1" href="./3m35/tinv-3gpp-35.html">35</a>&emsp;
+<a class="m1" href="./3m36/tinv-3gpp-36.html">36</a>&emsp;
+<a class="m1" href="./3m37/tinv-3gpp-37.html">37</a>&emsp;
+<a class="m1" href="./3m38/tinv-3gpp-38.html">38</a>&emsp;
+<a class="m1" href="./3m41/tinv-3gpp-41.html">4&#8209;5x</a>&emsp;
+</div>
+</div>
+<div class="m3-full">
+<div class="m3-pad5 gf">
+<!-- ~~ -->
+<table class="c m3-w m3-pad5 px13 textbg b ilh j bgi">
+<tbody>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.501" href="./3m23/tinv-3gpp-23-501.html"><span class="pxser">23.</span><span class="pxnum">501</span>
+<br>
+<span class="ob px14">5GS Architecture
+<br><span class="pxcom">v18.1.0, 1Q23/667 p.
+<br>144 Figures, 53 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.502" href="./3m23/tinv-3gpp-23-502.html"><span class="pxser">23.</span><span class="pxnum">502</span>
+<br>
+<span class="ob px14">5GS Procedures</span>
+<br><span class="pxcom">v18.1.1, 1Q23/829 p.
+<br>254 Figures, 57 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 33.501" href="./3m33/tinv-3gpp-33-501.html"><span class="pxser">33.</span><span class="pxnum">501</span>
+<br>
+<span class="ob px14">5GS Security Architecture</span>
+<br><span class="pxcom">v18.1.0, 1Q23/296 p.
+<br>71 Figures, 10 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.503" href="./3m23/tinv-3gpp-23-503.html"><span class="pxser">23.</span><span class="pxnum">503</span>
+<br>
+<span class="ob px14">5GS PCC Framework</span>
+<br><span class="pxcom">v18.1.0, 1Q23/165 p.
+<br>8 Figures, 17 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 38.300" href="./3m38/tinv-3gpp-38-300.html"><span class="pxser">38.</span><span class="pxnum">300</span>
+<br>
+<span class="ob px14">NR and NG-RAN Overall Description</span>
+<br><span class="pxcom">v17.3.0, 4Q22/213 p.
+<br>90 Figures, 11 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 38.401" href="./3m38/tinv-3gpp-38-401.html"><span class="pxser">38.</span><span class="pxnum">401</span>
+<br>
+<span class="ob px14">NR and NG-RAN Overall Description</span>
+<br><span class="pxcom">v17.3.0, 4Q22/128 p.
+<br>78 Figures</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 38.331" href="./3m38/tinv-3gpp-38-331.html"><span class="pxser">38.</span><span class="pxnum">331</span>
+<br>
+<span class="ob px14">RRC for 5G RAN</span>
+<br><span class="pxcom">v17.3.0, 4Q22/1295 p.
+<br>62 Figures, 697 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 38.413" href="./3m38/tinv-3gpp-38-413.html"><span class="pxser">38.</span><span class="pxnum">413</span>
+<br>
+<span class="ob px14">NG Application Protocol (NGAP)</span>
+<br><span class="pxcom">v17.3.0, 4Q22/567 p.
+<br>93 Figures, 616 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 22.261" href="./3m22/tinv-3gpp-22-261.html"><span class="pxser">22.</span><span class="pxnum">261</span>
+<br>
+<span class="ob px14">Service Reqs for 5GS</span>
+<br><span class="pxcom">v19.1.0, 4Q22/114 p.
+<br>8 Figures, 19 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 22.104" href="./3m22/tinv-3gpp-22-104.html"><span class="pxser">22.</span><span class="pxnum">104</span>
+<br>
+<span class="ob px14">Service Reqs in Vertical Domains</span>
+<br><span class="pxcom">v18.3.0, 4Q21/101 p.
+<br>29 Figures, 42 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 29.500" href="./3m29/tinv-3gpp-29-500.html"><span class="pxser">29.</span><span class="pxnum">500</span>
+<br>
+<span class="ob px14">5GS Service Based Architecture</span>
+<br><span class="pxcom">v18.0.0, 4Q22/131 p.
+<br>2 Figures, 21 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 29.501" href="./3m29/tinv-3gpp-29-501.html"><span class="pxser">29.</span><span class="pxnum">501</span>
+<br>
+<span class="ob px14">Guidelines
+for 5GS Services Def.</span>
+<br><span class="pxcom">v18.0.0, 4Q22/87 p.
+<br>16 Figures, 29 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 27.007" href="./3m27/tinv-3gpp-27-007.html"><span class="pxser">27.</span><span class="pxnum">007</span>
+<br>
+<span class="ob px14">AT Command Set
+<br>for UE</span>
+<br><span class="pxcom">v18.2.0, 1Q23/447 p.
+<br>15 Figures, 376 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 31.102" href="./3m31/tinv-3gpp-31-102.html"><span class="pxser">31.</span><span class="pxnum">102</span>
+<br>
+<span class="ob px14">USIM Application</span>
+<br><span class="pxcom">v17.8.0, 4Q22/358 p.
+<br>5 Figures, 246 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 31.101" href="./3m31/tinv-3gpp-31-101.html"><span class="pxser">31.</span><span class="pxnum">101</span>
+<br>
+<span class="ob px14">UICC-Terminal
+<br>interface</span>
+<br><span class="pxcom">v17.1.0, 2Q22/39 p.
+<br>1 Figure, 0 Table</span></a>
+</td>
+<td class="vm" width="12px">&rarr;</td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="eng" title="full textual and graphical content for ETSI TS 102 221" href="./3m31/tinv-3gpp-31-ETSI-102-221.html"><span class="pxser">ETSI TS</span><br><span class="pxnum">102 221</span>
+<br><span class="pxcom">v17.1.0, 1Q22/193 p.
+<br>32 Figures, 130 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 24.501" href="./3m24/tinv-3gpp-24-501.html"><span class="pxser">24.</span><span class="pxnum">501</span>
+<br>
+<span class="ob px14">NAS for 5GS</span>
+<br><span class="pxcom">v18.1.0, 4Q22/1031 p.
+<br>272 Figures, 212 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.122" href="./3m23/tinv-3gpp-23-122.html"><span class="pxser">23.</span><span class="pxnum">122</span>
+<br>
+<span class="ob px14">NAS functions for MS in Idle Mode</span>
+<br><span class="pxcom">v18.1.0, 4Q22/137 p.
+<br>13 Figures, 2 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 26.501" href="./3m26/tinv-3gpp-26-501.html"><span class="pxser">26.</span><span class="pxnum">501</span>
+<br>
+<span class="ob px14">5G Media Streaming (5GMS)</span>
+<br><span class="pxcom">v18.0.0, 4Q22/143 p.
+<br>82 Figures, 17 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 26.502" href="./3m26/tinv-3gpp-26-502.html"><span class="pxser">26.</span><span class="pxnum">502</span>
+<br>
+<span class="ob px14">5G MB User Service Architecture</span>
+<br><span class="pxcom">v17.3.0, 4Q22/70 p.
+<br>33 Figures, 15 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 26.114" href="./3m26/tinv-3gpp-26-114.html"><span class="pxser">26.</span><span class="pxnum">114</span>
+<br>
+<span class="ob px14">Multimedia Telephony Service for IMS (MTSI)</span>
+<br><span class="pxcom">v18.1.0, 4Q22/486 p.
+<br>62 Figures, 260 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 26.118" href="./3m26/tinv-3gpp-26-118.html"><span class="pxser">26.</span><span class="pxnum">118</span>
+<br>
+<span class="ob px14">Virtual Reality Profiles
+for Streaming Apps</span>
+<br><span class="pxcom">v17.0.0, 2Q21/89 p.
+<br>24 Figures, 17 Tables</span></a>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="h-30"></div>
+
+
+<table class="c m3-w m3-pad5 px13 textbg b ilh j bgi">
+<tbody>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.401" href="./3m23/tinv-3gpp-23-401.html"><span class="pxser">23.</span><span class="pxnum">401</span>
+<br>
+<span class="ob px14">EPS Arch./Proc.
+<br>for E-UTRAN</span>
+<br><span class="pxcom">v18.0.0, 4Q22/455 p.
+<br>125 Figures, 19 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.402" href="./3m23/tinv-3gpp-23-402.html"><span class="pxser">23.</span><span class="pxnum">402</span>
+<br>
+<span class="ob px14">EPS Arch./Proc.
+<br>for N3AN</span>
+<br><span class="pxcom">v18.0.0, 4Q22/317 p.
+<br>173 Figures, 5 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.060" href="./3m23/tinv-3gpp-23-060.html"><span class="pxser">23.</span><span class="pxnum">060</span>
+<br>
+<span class="ob px14">GPRS Architecture &amp; Procedures</span>
+<br><span class="pxcom">v17.0.0, 1Q22/373 p.
+<br>189 Figures, 19 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.003" href="./3m23/tinv-3gpp-23-003.html"><span class="pxser">23.</span><span class="pxnum">003</span>
+<br>
+<span class="ob px14">Numbering, Addres&shy;sing &amp; Identification</span>
+<br><span class="pxcom">v18.1.0, 1Q23/153 p.
+<br>40 Figures, 3 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 23.228" href="./3m23/tinv-3gpp-23-228.html"><span class="pxser">23.</span><span class="pxnum">228</span>
+<br>
+<span class="ob px14">IMS Architecture</span>
+<br><span class="pxcom">v18.0.0, 4Q22/357 p.
+<br>176 Figures, 8 Tables</span></a>
+</td>
+<td width="12px"></td>
+<td class="bgts vt" width="150px" height="150px">
+<a class="ts" title="full textual and graphical content for TS 24.229" href="./3m24/tinv-3gpp-24-229.html"><span class="pxser">24.</span><span class="pxnum">229</span>
+<br>
+<span class="ob px14">IP MM Call Control based on SIP and SDP</span>
+<br><span class="pxcom">v18.0.0, 4Q22/1148 p.
+<br>3 Figures, 589 Tables</span></a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.822" href="./3m22/tinv-3gpp-22-822.html"><span class="pxser">22.</span><span class="pxnum">822</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-16 Study on</span>
+<br>Satellite Access
+<br>in 5G</span>
+</a>
+</td>
+<td width="12px"></td>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.826" href="./3m22/tinv-3gpp-22-826.html"><span class="pxser">22.</span><span class="pxnum">826</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-17 Study on</span>
+<br>Critical Medical Applications</span>
+</a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.835" href="./3m22/tinv-3gpp-22-835.html"><span class="pxser">22.</span><span class="pxnum">835</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>enhanced access to and support of Network Slices</span>
+</a>
+</td>
+<td width="12px"></td>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.836" href="./3m22/tinv-3gpp-22-836.html"><span class="pxser">22.</span><span class="pxnum">836</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-17 Study on</span>
+<br>Asset Tracking
+<br>Use Cases</span>
+</a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.839" href="./3m22/tinv-3gpp-22-839.html"><span class="pxser">22.</span><span class="pxnum">839</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>Vehicle-mounted Relays</span>
+</a>
+</td>
+<td width="12px"></td>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.844" href="./3m22/tinv-3gpp-22-844.html"><span class="pxser">22.</span><span class="pxnum">844</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>5G Networks providing Access to Localized Services</span>
+</a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.847" href="./3m22/tinv-3gpp-22-847.html"><span class="pxser">22.</span><span class="pxnum">847</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>Tactile and multi-Modality communi&shy;cation services</span>
+</a>
+</td>
+<td width="12px"></td>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.858" href="./3m22/tinv-3gpp-22-858.html"><span class="pxser">22.</span><span class="pxnum">858</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>enhancements for Residential 5G</span>
+</a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.859" href="./3m22/tinv-3gpp-22-859.html"><span class="pxser">22.</span><span class="pxnum">859</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>Personal Internet of Things (PIoT) networks</span>
+</a>
+</td>
+<td width="12px"></td>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.867" href="./3m22/tinv-3gpp-22-867.html"><span class="pxser">22.</span><span class="pxnum">867</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>5G Smart Energy and Infrastructure</span>
+</a>
+</td>
+</tr>
+<tr><td height="12px"></td></tr>
+<tr>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.874" href="./3m22/tinv-3gpp-22-874.html"><span class="pxser">22.</span><span class="pxnum">874</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>Traffic characteristics for AI/ML Model Transfer</span>
+</a>
+</td>
+<td width="12px"></td>
+<td class="bgtr vt" width="150px" height="150px">
+<a class="tr" title="full textual and graphical content for TR 22.878" href="./3m22/tinv-3gpp-22-878.html"><span class="pxser">22.</span><span class="pxnum">878</span>
+<br>
+<span class="ob px14"><span class="pxcom">Rel-18 Study on</span>
+<br>5G Timing Resiliency System</span>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<div class="h-90"></div>
+<div class="h-90"></div>
+
+
+<!-- -->
+</div>
+<footer class="m3-container m3-blue-grey textbg c px12">
+<p>&copy; 2005-2023 Tech-invite, All Rights Reserved.</p>
+</footer>
+</div>
+</body>
+</html>
+</foreignObject>
+</svg>
