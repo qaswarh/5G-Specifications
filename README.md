@@ -1,3 +1,3 @@
 # 5G-Specifications
 
-![](specifications.svg)
+![](specifications.html)
