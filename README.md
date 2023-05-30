@@ -1,8 +1,10 @@
+window.dataLayer = window.dataLayer || \[\]; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-132314956-1'); Tech-invite – inside the 3GPP Standards     h1.f{font-size:24px;font-style:normal;font-weight:normal;color:#ff0066;margin-top:20px;line-height:30px} .m3-w{max-width:500px;margin: 0 auto} td { vertical-align: top; padding: 0.1em 0.1em; } td.bgts { background-color: #ccffff; } td.bgtr { background-color: #ccffe6; } .vt{vertical-align:top} .pxser{font-size:14pt} .pxser{font-family:"Trebuchet MS";font-weight:bold;font-size:18pt} .pxnum{font-family:"Trebuchet MS";font-weight:normal;font-size:30pt} .pxcom{font-family:"Trebuchet MS";font-weight:normal;font-size:13px;color:#000000}     
+
 [Tech-invite](./index.html)  [3GPPspace](./3m0/tinv-3gpp-overview.html)  [IETF RFCs](./x0/tinv-ietf-rfcs-94.html)  [SIP](./fo-sip/tinv-fo-sip-ex3261.html)
 
 [index](./3m0/tinv-3gpp-quick.html)  [21](./3m21/tinv-3gpp-21.html)  [22](./3m22/tinv-3gpp-22.html)  [23](./3m23/tinv-3gpp-23.html)  [24](./3m24/tinv-3gpp-24.html)  [25](./3m25/tinv-3gpp-25.html)  [26](./3m26/tinv-3gpp-26.html)  [27](./3m27/tinv-3gpp-27.html)  [28](./3m28/tinv-3gpp-28.html)  [29](./3m29/tinv-3gpp-29.html)  [31](./3m31/tinv-3gpp-31.html)  [32](./3m32/tinv-3gpp-32.html)  [33](./3m33/tinv-3gpp-33.html)  [34](./3m34/tinv-3gpp-34.html)  [35](./3m35/tinv-3gpp-35.html)  [36](./3m36/tinv-3gpp-36.html)  [37](./3m37/tinv-3gpp-37.html)  [38](./3m38/tinv-3gpp-38.html)  [4‑5x](./3m41/tinv-3gpp-41.html) 
 
-This is an experimentation of a 3GPP–IETF space of Tech-invite 
+just an experimentation of a 3GPP–IETF space  
 for an inline access to the 5G specifications
 ============================================================================================
 
